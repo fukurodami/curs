@@ -1,0 +1,32 @@
+{% load static %}
+<html lang="en">
+<head>
+  {% block title %}<title>Local Library</title>{% endblock %}
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="{% static 'css/login.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  {% block sidebar %}{% endblock %}
+  
+  <header>
+    <div class="nav">
+    <h2 class="logo">logo</h2>
+    <ul class="nav">
+      <li>wefe</li>
+      <li>wefe</li>
+      <li>wefe</li>
+      <li>wefe</li>
+    </ul>
+    {% block content %}
+    {% endblock %}
+  </div>
+  </header>
+  
+  
+
+</body>
+</html>
